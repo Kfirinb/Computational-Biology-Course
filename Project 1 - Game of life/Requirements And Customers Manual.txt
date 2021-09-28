@@ -1,0 +1,46 @@
+March, 2021.
+Names: Or S. Naim, Kfir Inbal
+IDs: 315394957, 209013168
+
+To run our software, kindly install PyGame as well as NumPy.
+
+There are two execution lines - depend on your preference. One requires five arguments, the other seven. Here they are (Examples):
+
+main.py r 50000 covid true 10 0 8 4 18
+main.py d 20000 10000 20000 russian false 10 0 8 4 18
+
+We will explain about every possible argument:
+FIRST ARGUMENT:
+main.py: Loads the software to memory.
+
+SECOND ARGUMENT:
+Decides how many arguments are required:
+r: Requires the global size (Integer) of the population (Third argument). By using this argument you need to provide FIVE ARGUMENTS.
+d: Requires the size of EACH sub-population (Integers) (Sick (Third argument), Healthy( Forth Argument), Immune (Fifth argument)).
+
+FORTH OR SIXTH ARGUMENT:
+Decides the rules of the game:
+covid: The classic settings on which we held our research.
+russian: Replicates "The Russian Roulette" game, a bonus mode.
+
+FIFTH OR SEVENTH ARGUMENT:
+Decides if the population moves or not.
+true: Enables movement.
+false: Disables movement.
+
+SIXTH OR EIGTH ARGUMENT:
+Defines the number of generations until an infected cell becomes immune.
+
+SEVENTH OR NINTH ARGUMENT:
+Defines the lower bound of the immunity system range of a healthy cell.
+
+EIGTH OR TENTH ARGUMENT:
+Defines the upper bound of the immunity system range of a healthy cell.
+
+NINTH OR ELEVENTH ARGUMENT:
+Defines the lower bound of the immunity system range of a vaccinated cell.
+
+TENTH OR TWELVTH ARGUMENT:
+Defines the upper bound of the immunity system range of a vaccinated cell.
+
+...
